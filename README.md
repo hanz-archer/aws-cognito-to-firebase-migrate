@@ -1,9 +1,6 @@
 Firebase Auth & Firestore Migration from AWS Cognito
 ====================================================
 
-📌 Overview
------------
-
 This script migrates user data from **AWS Cognito** to **Firebase Authentication** and **Firestore**. It ensures that all user attributes from Cognito are preserved in Firestore while maintaining compatibility with Firebase Auth.
 
 🚀 Features
@@ -86,6 +83,7 @@ The script expects a JSON file structured like this:
   ]
 }
 
+**Note: Feel free to tweak the code according to your specific JSON structure or Cognito setup.**
 
 🔄 How It Works
 ---------------
