@@ -50,8 +50,10 @@ This script migrates user data from **AWS Cognito** to **Firebase Authentication
 --------
 
 Run the script and follow the prompts:
+To run the script, use the following command:
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   python migrate_users.py   `
+```bash
+python migrate_users.py
 
 ### Options:
 
