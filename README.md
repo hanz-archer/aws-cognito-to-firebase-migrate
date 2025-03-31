@@ -62,7 +62,28 @@ Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQL
 
 The script expects a JSON file structured like this:
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   {    "Users": [      {        "Username": "1234567890",        "Attributes": [          { "Name": "email", "Value": "user@example.com" },          { "Name": "email_verified", "Value": "true" },          { "Name": "phone_number", "Value": "+1234567890" },          { "Name": "phone_number_verified", "Value": "true" },          { "Name": "given_name", "Value": "John" },          { "Name": "family_name", "Value": "Doe" },          { "Name": "sub", "Value": "abcd-efgh-ijkl" }        ],        "UserCreateDate": "2023-01-01T12:00:00Z",        "UserLastModifiedDate": "2023-06-01T12:00:00Z",        "Enabled": true,        "UserStatus": "CONFIRMED"      }    ]  }   `
+```json
+{
+  "Users": [
+    {
+      "Username": "1234567890",
+      "Attributes": [
+        { "Name": "email", "Value": "user@example.com" },
+        { "Name": "email_verified", "Value": "true" },
+        { "Name": "phone_number", "Value": "+1234567890" },
+        { "Name": "phone_number_verified", "Value": "true" },
+        { "Name": "given_name", "Value": "John" },
+        { "Name": "family_name", "Value": "Doe" },
+        { "Name": "sub", "Value": "abcd-efgh-ijkl" }
+      ],
+      "UserCreateDate": "2023-01-01T12:00:00Z",
+      "UserLastModifiedDate": "2023-06-01T12:00:00Z",
+      "Enabled": true,
+      "UserStatus": "CONFIRMED"
+    }
+  ]
+}
+
 
 🔄 How It Works
 ---------------
